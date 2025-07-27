@@ -64,7 +64,7 @@ public class DocumentAdapter : IDocumentAdapter
     /// Перевод из модели Sdk в нашу бизнесовую
     /// </summary>
     /// <param name="document">Sdk документ</param>
-    /// <returns></returns>
+    /// <returns>Бизнес-модель документа</returns>
     private Document FromSdkDocument(SdkDocument document)
     {
         User user = new(document.User.Id, document.User.Name, document.User.Login);
