@@ -41,7 +41,7 @@ public class Document
         }
     }
 
-    public string? Description { get; init; }
+    public string Description { get; init; }
 
     public Priority Priority { get; init; }
 

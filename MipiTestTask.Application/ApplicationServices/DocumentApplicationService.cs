@@ -34,7 +34,7 @@ public class DocumentApplicationService : IDocumentApplicationService
     /// Перевод из бизнес-модели во вью-модель
     /// </summary>
     /// <param name="document">Бизнес-модель документа</param>
-    /// <returns></returns>
+    /// <returns>Вью-модель документа</returns>
     private DocumentViewModel ToViewModel(Document document)
     {
         UserViewModel userVM = new(document.User.Id, document.User.Name, document.User.Login);
