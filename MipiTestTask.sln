@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MipiTestTask", "MipiTestTask\MipiTestTask.csproj", "{650479E4-75CF-47F5-9C20-288A4F9F6F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MipiTestTask.Application", "MipiTestTask.Application\MipiTestTask.Application.csproj", "{D43989C6-34B6-4AD5-B607-E1CCF8623D14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MipiTestTask.Infrastructure", "MipiTestTask.Infrastructure\MipiTestTask.Infrastructure.csproj", "{6F9925A6-694A-4FFE-A863-3801FC28A629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDK", "SDK\SDK.csproj", "{0A38FA01-200A-41C0-B373-E20179CE206D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MipiTestTask.Bll", "MipiTestTask.Bll\MipiTestTask.Bll.csproj", "{D4217D99-B3E0-4650-9817-98819631F63E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{650479E4-75CF-47F5-9C20-288A4F9F6F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650479E4-75CF-47F5-9C20-288A4F9F6F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650479E4-75CF-47F5-9C20-288A4F9F6F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650479E4-75CF-47F5-9C20-288A4F9F6F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D43989C6-34B6-4AD5-B607-E1CCF8623D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43989C6-34B6-4AD5-B607-E1CCF8623D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43989C6-34B6-4AD5-B607-E1CCF8623D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43989C6-34B6-4AD5-B607-E1CCF8623D14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9925A6-694A-4FFE-A863-3801FC28A629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9925A6-694A-4FFE-A863-3801FC28A629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9925A6-694A-4FFE-A863-3801FC28A629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9925A6-694A-4FFE-A863-3801FC28A629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A38FA01-200A-41C0-B373-E20179CE206D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A38FA01-200A-41C0-B373-E20179CE206D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A38FA01-200A-41C0-B373-E20179CE206D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A38FA01-200A-41C0-B373-E20179CE206D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4217D99-B3E0-4650-9817-98819631F63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4217D99-B3E0-4650-9817-98819631F63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4217D99-B3E0-4650-9817-98819631F63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4217D99-B3E0-4650-9817-98819631F63E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B062A389-A2A6-497B-A352-893B65DB3830}
+	EndGlobalSection
+EndGlobal
